@@ -35,10 +35,10 @@ HTML;
 <section class="nav-tabs bg-dark">
 
  <!--L'arrière plan en noir avec du text en blanc -->
-<nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top ">
-  <div class="container-fluid" >
+<nav class="navbar navbar-expand-sm bg-warning sticky-top ">
+  <div class="container-fluid justify-content-center " >
     <!-- @cette partie est dédié aux pages  -->
-    <ul class="navbar-nav ">
+    <ul class="navbar-nav  ">
       <!-- @Partie dedié à la page D'acceuil avec le mecanisme du bouton active -->
       <?= nav_item('/Pages/Index.php', 'Acceuil')?>
       <?= nav_item('/Pages/Competences.php', 'Mes compétences')?>

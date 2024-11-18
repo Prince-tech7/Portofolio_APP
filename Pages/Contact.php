@@ -8,22 +8,19 @@ require_once 'C:\xampp\htdocs\PortofolioApp\Components\header.php';
 // @definition du fonctionnerment "active" lors du pointage du curceur
 $nav = "Contact";
 ?>
-<section class="mt-5 container-fluid">
-  <style>
-    .mt-5 {
-      background-color: red;
-      margin: auto;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-  </style>
-  <div>
-    <h1>
-      Veiller nous contacter via ce formulaire d'inscription pour avoir plus sur nos infos
-    </h1>
+
+<section class="row" >
+<section class="col-sm-5 d-inline-block"  >
+<div class="card"  >
+  <img class="card-img-top"  src="\Assets\Img\Prince.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">ITOUA Guy Blanc Prince</h4>
+    <p class="card-text">Developpeur web fullstack junior</p>
+    <a href="#" class="btn btn-primary">Voir Mon CV</a>
   </div>
+</div>
 </section>
-<section>
+<section class="col-sm-5">
   <div class="card container" style="margin:auto;">
     <h2 class="text-center" style="font-size:50px;">Formulaire de Contact</h2>
     <form action="/Pages/Database.php" method="post" class="card-body" style="font-size:30px;">
@@ -55,6 +52,7 @@ $nav = "Contact";
       <button type="submit" name="submit" class="btn btn-success">Submit</button>
     </form>
   </div>
+</section>
 </section>
 
 <?php require_once 'C:\xampp\htdocs\PortofolioApp\Components\footer.php';  ?>
