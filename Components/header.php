@@ -48,15 +48,5 @@ HTML;
     </ul>
   </div>
 </nav>
-
 </section>
-<style>
-   
-</style>
-<section class="container-fluid">
- <img src="Assets/Img/imgb2.jpg" alt="">
-</section>
-
-
-
 <!-- L'hebergeur gratuit 000 web host -->

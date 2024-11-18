@@ -26,7 +26,7 @@ $nav = "Contact";
 <section>
   <div class="card container" style="margin:auto;">
     <h2 class="text-center" style="font-size:50px;">Formulaire de Contact</h2>
-    <form action="/Pages/Traitement.php" method="post" class="card-body" style="font-size:30px;">
+    <form action="/Pages/Database.php" method="post" class="card-body" style="font-size:30px;">
       <div class="row">
         <div class="col mb-3 mt-3">
           <label for="text">Nom :</label>
@@ -40,17 +40,17 @@ $nav = "Contact";
       <div class="row">
         <div class="col mb-3 mt-3">
           <label for="number">Télephone:</label>
-          <input type="number" name="Tel" class="form-control font-size:30px;" id="number" autoloader="off" placeholder="Numero de Télephone" name="Tel">
+          <input type="number" name="telephone" pattern="^[0-14]{15}$" class="form-control font-size:30px;" id="number" autoloader="off" placeholder="Numero de Télephone">
         </div>
 
         <div class="col mb-3 mt-3">
           <label for="text">Sujet</label>
-          <input type="text" class="form-control" id="text" autoloader="off" placeholder="Enter votre sujet" name="Sujet">
+          <input type="text"  name="sujet" class="form-control" id="text" autoloader="off" placeholder="Enter votre sujet">
         </div>
       </div>
       <div class="mb-3">
-        <label for="comment">Message</label>
-        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        <label for="message">Message</label>
+        <textarea class="form-control" name="message" rows="5" id="message" ></textarea>
       </div>
       <button type="submit" name="submit" class="btn btn-success">Submit</button>
     </form>
