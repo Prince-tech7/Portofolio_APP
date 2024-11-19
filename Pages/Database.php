@@ -7,6 +7,7 @@ $dbname = 'user_contact';
 $username = 'root';
 $password = '';
 
+// @la  logique de la communication avec la base des donnees.
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

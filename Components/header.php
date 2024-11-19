@@ -45,7 +45,7 @@ HTML;
       <?= nav_item('/Pages/Competences.php', 'Mes compétences')?>
       <?= nav_item('/Pages/faq.php', 'FAQ')?>
       <?= nav_item('/Pages/Contact.php', 'Me Contacter')?>
-      <?= nav_item('/Pages/Temoignages.php', 'Témoignages')?>
+      <?= nav_item('/Pages/Temoignages.php', 'Apropos')?>
     </ul>
   </div>
 </nav>

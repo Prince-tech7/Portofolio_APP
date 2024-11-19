@@ -9,8 +9,10 @@ require_once 'C:\xampp\htdocs\PortofolioApp\Components\header.php';
 $nav = "Contact";
 ?><br>
 
+<!-- @section   -->
 <section class=" container-fluid row mt-3" style="margin: auto;" >
 <section class="col-sm-5 d-inline-block mx-5" >
+  <!-- @style de l'image à l'arrière plan -->
 <div class="card"  >
   <style>
     .card-img-top{
@@ -19,6 +21,7 @@ $nav = "Contact";
       background-image: url('/Assets/Img/imgb4.jpg');
     }
   </style>
+  <!-- @faire afficher les inforamations au dessus de la card -->
   <img class="card-img-top"  src="" alt="Card image">
   <div class="card-img-overlay">
     <h4 class="card-title">Devellopement des sites internets</h4>
@@ -28,6 +31,8 @@ $nav = "Contact";
   </div>
 </div>
 </section>
+
+<!-- @section formulaire -->
 <section class="col-sm-5 bg-info mx-5">
   <div class="card container bg-info" style="margin:auto;">
     <h2 class="text-center" style="font-size:30px;">LAISSEZ MOI UN MESSAGE</h2>
@@ -47,7 +52,6 @@ $nav = "Contact";
           <label for="number">Télephone:</label>
           <input type="number" name="telephone" pattern="^[0-14]{15}$" class="form-control font-size:30px;" id="number" autoloader="off" placeholder="Numero de Télephone">
         </div>
-
         <div class="col mb-3 mt-3">
           <label for="text">Sujet</label>
           <input type="text"  name="sujet" class="form-control" id="text" autoloader="off" placeholder="Enter votre sujet">
@@ -68,4 +72,6 @@ $nav = "Contact";
 </section>
 </section>
 
+
+<!-- @cette partie paermet d'appel la partie footer -->
 <?php require_once 'C:\xampp\htdocs\PortofolioApp\Components\footer.php';  ?>
