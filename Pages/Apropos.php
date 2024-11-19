@@ -6,15 +6,41 @@ require_once 'C:\xampp\htdocs\PortofolioApp\Components\header.php';
 $nav = "Apropos";
 
 ?>
+<section class="container-fluid  mt-3">
 <div class="row">
 
+    <div class="col-sm-6">
+    <img src="\Assets\Img\img9.jpg" class="img-fluid" alt="...">
+    </div>
     <div class="col-sm-6">Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
         molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
-        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!</div>
-    <div class="col-sm-6">Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
         molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
-        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!</div>
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione
+        molestiae labore cumque, dignissimos omnis sit veniam odio obcaecati fugiat delectus,
+        assumenda, sequi quis quidem sed. Omnis quod ipsam unde!
+        Lorem ipsum dolor sit ametconsectetur adipisicing elit. Quae ratione Lorem ipsum 
+        dolor sit amet consectetur adipisicing elit. Debitis suscipit saepe eius.
+    </div>
 </div>
+</section>
 
 
 

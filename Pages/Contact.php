@@ -9,34 +9,17 @@ require_once 'C:\xampp\htdocs\PortofolioApp\Components\header.php';
 $nav = "Contact";
 ?><br>
 
-<!-- @section   -->
-<section class=" container-fluid row mt-3" style="margin: auto;" >
-<section class="col-sm-5 d-inline-block mx-5" >
-  <!-- @style de l'image à l'arrière plan -->
-<div class="card"  >
-  <style>
-    .card-img-top{
-      width: 400px;
-      height: 570px;
-      background-image: url('/Assets/Img/imgb4.jpg');
-    }
-  </style>
-  <!-- @faire afficher les inforamations au dessus de la card -->
-  <img class="card-img-top"  src="" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title">Devellopement des sites internets</h4>
-    <p class="card-text">Pour tous vos bésoins dan sla conception des sites
-       internet veiller s'il vous plait nous contacter  </p>
-    <a href="#" class="btn btn-primary">Voir Mon CV</a>
+<!-- @section image premier   -->
+<section class="container-fluid d-flex row mt-3 mx-auto justify-content-center align-items-center ">
+  <div class="col-sm-5 mx-2 d-flex">
+    <img src="\Assets\Img\imgb9.jpg" class="img-fluid" style="height: 33.2em; width:50em;" alt="...">
   </div>
-</div>
-</section>
 
-<!-- @section formulaire -->
-<section class="col-sm-5 bg-info mx-5">
-  <div class="card container bg-info" style="margin:auto;">
-    <h2 class="text-center" style="font-size:30px;">LAISSEZ MOI UN MESSAGE</h2>
-    <form action="/Pages/Database.php" method="post" class="card-body" style="font-size:15px;">
+  <!-- @section formulaire -->
+  <div class="col-sm-5 mx-2 bg-info">
+  <div class="container-fluid bg-info" >
+    <h2 class="text-center" style="font-size:30px; ">LAISSEZ MOI UN MESSAGE</h2>
+    <form action="/Pages/Database.php" method="post" class="card-body" style="font-size:15px; ">
       <div class="row">
         <div class="col mb-3 mt-3">
           <label for="text">Nom :</label>
@@ -54,22 +37,22 @@ $nav = "Contact";
         </div>
         <div class="col mb-3 mt-3">
           <label for="text">Sujet</label>
-          <input type="text"  name="sujet" class="form-control" id="text" autoloader="off" placeholder="Enter votre sujet">
+          <input type="text" name="sujet" class="form-control" id="text" autoloader="off" placeholder="Enter votre sujet">
         </div>
       </div>
       <div class="mb-3">
         <label for="message">Message</label>
-        <textarea class="form-control" name="message" rows="5" id="message" ></textarea>
+        <textarea class="form-control" name="message" rows="5" id="message"></textarea>
       </div>
       <button type="submit" name="submit" class="btn btn-warning">Submit</button>
     </form>
   </div>
   <div class="text-center">
-      <p class="text-center">Réjoignez moi via</p>
-     <a href="https://wa.me/242067179811" style="font-size:35px; color:green;"><i class="fa-brands fa-whatsapp mx-2"></i></a> 
-      <a href="https://t.me/Guyblanc" style="font-size:35px; color:bleu;"><i class="fa-brands fa-telegram mx-2"></i></a>
+    <p class="text-center">Réjoignez moi via</p>
+    <a href="https://wa.me/242067179811" style="font-size:35px; color:green;"><i class="fa-brands fa-whatsapp mx-2"></i></a>
+    <a href="https://t.me/Guyblanc" style="font-size:35px; color:bleu;"><i class="fa-brands fa-telegram mx-2"></i></a>
   </div>
-</section>
+  </div>
 </section>
 
 
