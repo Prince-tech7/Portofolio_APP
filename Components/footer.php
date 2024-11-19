@@ -4,6 +4,7 @@
 
 </body>
 
+<script src="/Assets/Fonts/fontawesome-free-6.7.0-web/js/fontawesome.min.js"></script>
 <script src="/Vendor/bootstrap-5.3.3/css/bootstrap.min.css"></script>
 </html>
 </section>

@@ -28,6 +28,7 @@ HTML;
     <title> <?php if (isset($titre)) { echo $titre; } else {header('Location:404.php');} ?> </title>
 
     <link rel="stylesheet" href="/Vendor/bootstrap-5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assets/Fonts/fontawesome-free-6.7.0-web/css/all.min.css">
 </head>
 <body>
 
